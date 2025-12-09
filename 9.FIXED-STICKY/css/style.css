@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #212121;
+    /* padding-top: 60px; */
+    /* margin: 0; */
+}
+
+a{
+    color: white;
+}
+
+nav{
+    width: calc(100% - 30px);
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    background: rgba(139, 45, 45, .5);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+}
+
+div{
+    width: calc(100% - 30px);
+    height: 300px;
+    background-color: rgb(119, 119, 54);
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.scroll-up{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 100%;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+h1, p{
+    transition-duration: 0.1s;
+
+    color: #fff;
+}

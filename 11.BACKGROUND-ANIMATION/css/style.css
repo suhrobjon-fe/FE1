@@ -1,0 +1,60 @@
+body{
+    color: #fff;
+    background-color: #212121;
+
+    height: 1000vh;
+}
+
+.wrapper{
+    width: 500px;
+    height: 500px;
+    
+    background-color: red;
+    /* background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/z/u/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=1300&hei=715&scl=2.313846153846154);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right; */
+    /* background-attachment: fixed; */
+}
+
+@keyframes jahongir{
+    /* from{
+        background-color: yellow;
+        transform: translate(0);
+    }
+    to{
+        background-color: black;
+        transform: translate(300px, 300px);
+    } */
+    0%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    25%{
+        transform: translateX(400px);
+        background-color: blue;
+    }
+    50%{
+        transform: translate(400px, 400px);
+        background-color: green;
+    }
+    75%{
+        transform: translate(0, 400px);
+        background-color: violet;
+    }
+}
+
+.el{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    animation-name: jahongir;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    /* animation-timing-function: steps(10); */
+}

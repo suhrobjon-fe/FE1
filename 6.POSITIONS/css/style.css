@@ -1,0 +1,63 @@
+/* .wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+    position: relative;
+}
+
+.el{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    position: absolute;
+}
+
+.el2{
+    right: 0;
+}
+.el3{
+    right: 0;
+    bottom: 0;
+}
+.el4{
+    bottom: 0;
+}
+.el5{
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+} */
+
+.black{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+.red{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+.yellow1, .yellow2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* .black .red .yellow1{
+    border-radius: 100px;
+} */
+
+/* .red ~ div{
+    border-radius: 100px;
+} */
+
+.black *{
+    border-radius: 100%;
+}

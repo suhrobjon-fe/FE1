@@ -1,0 +1,46 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+/* .wrapper{
+    width: 600px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: right;
+} */
+
+img{
+    float: right;
+    margin-left: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+table{
+    border-collapse: collapse;
+    /* display: inline-table; */
+}
+
+table, td, th{
+    border: 2px solid #fff;
+}
+
+td, th{
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-1{
+    text-align: left;
+}

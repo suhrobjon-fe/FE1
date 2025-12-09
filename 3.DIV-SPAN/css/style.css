@@ -1,0 +1,42 @@
+/*
+tagname{
+    property: value;
+} */
+
+/* selector:
+    1. IDname
+    2. ClassName
+    3. attrName
+    4. tagName
+    5. 
+*/
+
+/* span{
+    background-color: yellow;
+} */
+
+#spn{
+    background-color: yellow;
+}
+
+ol.list#list{
+    background-color: green;
+}
+
+.el{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.dark{
+    background-color: black;
+}
+.light{
+    background-color: #b6b6b6;
+}

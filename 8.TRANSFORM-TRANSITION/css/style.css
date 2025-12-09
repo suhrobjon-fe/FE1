@@ -1,0 +1,56 @@
+body{
+    background-color: #212121;
+}
+
+.wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /* transform: rotate(45deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg) rotateX(45deg); */
+    /* transform: rotate3d(1, 1, 1, 45deg); */
+
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(50px, 25px); */
+    /* transform: rotate3d(1, 1, 1, 45deg) translateZ(100px); */
+
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(1.5, 2); */
+
+    /* transform: skewX(50deg); */
+    /* transform: skewY(50deg); */
+    /* transform: skew(25deg, 20deg); */
+
+    /* transition-duration: 0.1s; */
+    /* transition-property: background-color; */
+    /* transition-timing-function: ease-in-out; */
+    transition: all 1s ease-in;
+}
+
+/* .wrapper:hover ~ p{
+    transform: scale(1.1);
+    color: white;
+    background-color: blue;
+}
+
+.wrapper:hover + p{
+    transform: scale(1);
+    background-color: blue;
+} */
+
+.wrapper:hover{
+    /* transform: rotateY(90deg); */
+    transform-origin: bottom right;
+    transform: rotate(30deg);
+}
+
+
+h1, p{
+    transition-duration: 0.1s;
+
+    color: #fff;
+}

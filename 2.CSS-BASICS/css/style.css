@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* tagname{
+    property: value;
+} */
+
+/* selector:
+    1. Tagname
+    2. ClassName
+    3. ID
+*/
+
+/* Colors:
+    1. colorname
+    2. RGB - rgb(0 - 255) R - red, G - green, B - blue
+    3. RGBA - rgba(0-255, 0-255, 0-255, 0-1)
+    4. HEX - Hexademical
+*/
+
+body{
+    background-color: rgb(75, 75, 75);
+    color: #fff;
+}
+
+h1{
+    /* color: red; */
+    /* color: rgb(255, 0, 0); */
+    /* color: rgba(255, 0, 0, 0.5); */
+    /* color: #EC2F2F; */
+
+    font-family: "Cossette Titre", sans-serif;
+
+    /* font-variant: small-caps; */
+
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase; */
+
+}
+
+p{
+    /* font-family: "Cossette Titre", sans-serif; */
+    font-weight: 400;
+    
+    text-align: justify;
+}
+
+b{
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+
+    line-height: 50px;
+}
+
+.red{
+    color: red;
+}
+
+.jahongir{
+    color: blue;
+    color: yellow;
+}
+
+li{
+    color: green;
+}
