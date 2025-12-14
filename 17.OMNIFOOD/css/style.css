@@ -49,20 +49,24 @@ button{
 
 .container{
     max-width: 1200px;
-    padding-left: 32px;
-    padding-right: 32px;
+
     margin-left: auto;
     margin-right: auto;
+    
+    padding: 96px 32px;
 }
 
 .btn{
+    display: block;
+    
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
 
     border-radius: 9px;
     padding: 16px 32px;
 
-    transition: .2s;
+    transition: scale .2s ease;
 }
 .btn-primary{
     color: var(--color-white);
@@ -86,10 +90,217 @@ button{
     letter-spacing: 0.75px;
     text-transform: uppercase;
     color: var(--color-primary);
+
+    margin-bottom: 16px;
 }
 .heading-title{
     font-size: 44px;
     font-weight: 700;
     letter-spacing: 0.75px;
     color: var(--text-color2);
+}
+
+header{
+    background-color: var(--color-secondary);
+}
+header .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container{
+    max-width: 1440px;
+
+    padding: 27px 48px;
+}
+header .logo{
+    line-height: 0;
+}
+header .box{
+    display: flex;
+    align-items: center;
+
+    gap: 45px;
+}
+header .box nav ul{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color1);
+}
+header .box .btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 24px;
+}
+
+.promo{
+    background-color: var(--color-secondary);
+}
+.promo .container{
+    max-width: 1440px;
+    padding: 48px 70px 96px;
+}
+.promo .promo-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.promo .promo-content .main-content{
+    max-width: 584px;
+}
+.promo .promo-content .main-content > div:first-child{
+    margin-bottom: 80px;
+}
+.promo .promo-content .main-content h1{
+    font-size: 52px;
+    line-height: 55px;
+    color: var(--text-color1);
+
+    margin-bottom: 32px;
+}
+.promo .promo-content .main-content h1 + p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--text-color2);
+
+    margin-bottom: 48px;
+}
+.promo .promo-content .main-content .buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.promo .promo-content .main-content .customers{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.promo .promo-content .main-content .customers p{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-color2);
+}
+.promo .promo-content .main-content .customers p span{
+    color: var(--color-primary);
+}
+.promo .promo-content .main-content .customers .customer-img{
+    display: flex;
+    align-items: center;
+}
+.promo .promo-content .main-content .customers .customer-img img{
+    border: 3px solid var(--color-secondary);
+    border-radius: 100%;
+}
+.promo .promo-content .main-content .customers .customer-img img:not(:first-child){
+    margin-left: -16px;
+}
+.promo .promo-content .image{
+    line-height: 0;
+}
+
+.partners{
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.partners .container{
+    padding-top: 14px;
+    padding-bottom: 0;
+}
+.partners .partners-content p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #888;
+    
+    margin-bottom: 24px;
+}
+.partners .partners-content .partners-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.partners .partners-content .partners-logos img{
+    filter: contrast(0);
+}
+
+.instruct{
+    background-color: var(--color-secondary);
+    margin-bottom: 200px;
+}
+.instruct .instruct-content{
+    background: greenyellow;
+}
+.instruct .instruct-content .title{
+    background-color: aqua;
+    margin-bottom: 96px;
+}
+
+.instruct .instruct-content .steps{
+    background-color: yellow;
+}
+.instruct .instruct-content .steps .step{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+}
+.instruct .instruct-content .steps .step div{
+    flex-basis: 50%;
+}
+.instruct .instruct-content .steps .step .step-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruct .instruct-content .steps .step .step-img{
+    
+}
+
+.instruct .instruct-content .steps .step .numb{
+    font-weight: 600;
+    font-size: 86px;
+    letter-spacing: 0.75px;
+    color: #ddd;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instruct .instruct-content .steps .step h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--text-color2);
+}
+.instruct .instruct-content .steps .step h3 + p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.numb::before{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+    background-color: #FAE5D3;
+    border: 40px solid #FDF2E9;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.numb::after{
+    content: "";
 }
