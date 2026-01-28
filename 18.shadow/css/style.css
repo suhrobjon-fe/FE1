@@ -1,0 +1,43 @@
+body{
+    background-color: #212121;
+    color: white;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+
+    text-shadow: 10px 10px 5px 5px red;
+}
+
+h1::before{
+    content: "FRONT-END";
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: red;
+    z-index: -1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: blur(5px);
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    box-shadow: 5px 5px blue,
+    -5px -5px green;
+
+    margin-bottom: 50px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    /* filter: blur(10px);
+    border-radius: 100%; */
+
+    box-shadow: 5px 5px 10px 5px blue;
+}
